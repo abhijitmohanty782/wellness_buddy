@@ -5,13 +5,6 @@
 
 # SOLUTION:
 
-
-# How to use?
-You can access the website at 
-
-
-
-
 # Important Links:
 Website - 
 Chatbot -https://medical-chatbot-utle.onrender.com/
