@@ -1,4 +1,4 @@
-Project: Wellness Buddy | Team: Code Hustlers
+# Project: Wellness Buddy | Team: Code Hustlers
 
 # PROBLEM STATEMENT:
 
@@ -13,5 +13,5 @@ You can access the website at
 
 
 # Important Links:
-Website - https://culturalcanvas.dev/
+Website - 
 Chatbot -https://medical-chatbot-utle.onrender.com/
