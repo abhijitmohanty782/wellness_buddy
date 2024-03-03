@@ -4,44 +4,44 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <title>Wellness Buddy</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-
-    <title>Wellness Buddy</title>
+    <style>
+    </style>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-md navbar-dark bg-primary mb-4">
-        <div class="container-fluid">
+        <div class="container">
             <a class="navbar-brand" href="#">Wellness Buddy</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
-                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="form.html">Book an appointment</a> 
+                        <a class="nav-link active" href="form.html">Book an appointment</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="contact.html">Contact us</a>
+                        <a class="nav-link active" href="contact.html">Contact us</a>
                     </li>
-                    <li class="chatbot" color="black">
-                        <a class="nav-link active" aria-current="page"  href="https://medical-chatbot-utle.onrender.com/" >Querybot</a>
-                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="https://medical-chatbot-utle.onrender.com/">Querybot</a>
+                    </li>
                 </ul>
             </div>
-            <button type="button" class="btn btn-link btn-light bg-light">Sign in</button>
+            <button type="button" class="btn btn-light">Sign in</button>
         </div>
     </nav>
-    <div class="container-fluid">
-        <div id="carouselExampleControls" class="carousel slide carousel-fade" data-ride="carousel">
+    <div class="container">
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-                <div class="carousel-item">
+                <div class="carousel-item active">
                     <img src="https://source.unsplash.com/1500x400/?doctor,cancer,tuberculosis" class="d-block w-100"
                         alt="...">
                 </div>
@@ -49,7 +49,7 @@
                     <img src="https://source.unsplash.com/1500x400/?doctor,nurse,patients,medicine"
                         class="d-block w-100" alt="...">
                 </div>
-                <div class="carousel-item active">
+                <div class="carousel-item">
                     <img src="https://source.unsplash.com/1500x400/?doctor,patients,medical" class="d-block w-100"
                         alt="...">
                 </div>
@@ -64,70 +64,56 @@
             </a>
         </div>
     </div>
-    <div class="container marketing">
-        <br>
-        <!-- Three columns of text below the carousel -->
-        <div class="container marketing d-flex">
-
-            <!-- Three columns of text below the carousel -->
-            <div class="row d-flex justify-content-center align-items-center">
-                <div style="text-align: center" class="col-lg-4">
-                    <img src="Images/cancer.jpg" class="rounded-circle" alt="Rounded Image" width="140" height="140">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                    </svg>
-                    <h2 class="fw-normal">Cancer</h2>
-                    <p>
-                        Common cancer symptoms include unexplained weight loss, persistent fatigue, changes in bowel or bladder habits, persistent cough, and unusual bleeding or bruising.</p>
-                    <p><a class="btn btn-secondary" href="https://www.who.int/health-topics/cancer">View details »</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="row d-flex justify-content-center align-items-center">
-                    <div style="text-align: center" class="col-lg-4">
-                        <img src="Images/diabeties.avif" class="rounded-circle" alt="Rounded Image" width="140" height="140">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                    </svg>
-                    <h2 class="fw-normal">Diabeties</h2>
-                    <p>Common symptoms of diabetes include increased thirst, frequent urination, unexplained weight loss, fatigue, blurred vision, and slow wound healing.</p>
-                    <p><a class="btn btn-secondary" href="https://www.who.int/news-room/fact-sheets/detail/diabetes#:~:text=Diabetes%20is%20a%20chronic%20disease,hormone%20that%20regulates%20blood%20glucose.">View details »</a></p>
-                </div><!-- /.col-lg-4 -->
-                <div class="row d-flex justify-content-center align-items-center">
-                    <div style="text-align: center" class="col-lg-4">
-                        <img src="Images/tuberculosis.avif" class="rounded-circle" alt="Rounded Image" width="140" height="140">
-                        <title>Placeholder</title>
-                        <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                    </svg>
-                    <h2 class="fw-normal">Tuberculosis</h2>
-                    <p>Symptoms of tuberculosis (TB) can include persistent coughing for more than three weeks, coughing up blood, chest pain, fatigue, fever, night sweats, and unexplained weight loss.</p>
-                    <p><a class="btn btn-secondary" href="https://www.who.int/news-room/fact-sheets/detail/tuberculosis#:~:text=Tuberculosis%20(TB)%20is%20an%20infectious,been%20infected%20with%20TB%20bacteria.">View details »</a></p>
-                </div><!-- /.col-lg-4 -->
-            </div><!-- /.row -->
-
-            <!-- Optional JavaScript -->
-            <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-            <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-                integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-                crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-                integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-                crossorigin="anonymous"></script>
-            <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js"
-                integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-                crossorigin="anonymous"></script>
-            <br>
-            <br>
-            <div class="container">
-                <footer class="py-3 my-4">
-                    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Doctors</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Profiles</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Vision</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
-                        <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Connect with us</a></li>
-                    </ul>
-                    <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
-                </footer>
+    <br>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="https://source.unsplash.com/400x300/?cancer-patient" class="rounded-circle img-fluid"
+                    alt="Cancer">
+                <h2>Cancer</h2>
+                <p>Common cancer symptoms include unexplained weight loss, persistent fatigue, changes in bowel or
+                    bladder habits, persistent cough, and unusual bleeding or bruising.</p>
+                <a href="https://www.who.int/health-topics/cancer" class="btn btn-secondary">View details</a>
             </div>
-</body>
+            <div class="col-lg-4">
+                <img src="https://source.unsplash.com/400x300/?diabetes-patient" class="rounded-circle img-fluid"
+                    alt="Diabetes">
+                <h2>Diabetes</h2>
+                <p>Common symptoms of diabetes include increased thirst, frequent urination, unexplained weight loss,
+                    fatigue, blurred vision, and slow wound healing.</p>
+                <a href="https://www.who.int/news-room/fact-sheets/detail/diabetes" class="btn btn-secondary">View
+                    details</a>
+            </div>
+            <div class="col-lg-4">
+                <img src="https://source.unsplash.com/400x300/?tuberculosis-patient" class="rounded-circle img-fluid"
+                    alt="Tuberculosis">
+                <h2>Tuberculosis</h2>
+                <p>Symptoms of tuberculosis (TB) can include persistent coughing for more than three weeks, coughing up
+                    blood, chest pain, fatigue, fever, night sweats, and unexplained weight loss.</p>
+                <a href="https://www.who.int/news-room/fact-sheets/detail/tuberculosis" class="btn btn-secondary">View
+                    details</a>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Doctors</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Profiles</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Vision</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Connect with us</a>
+            </li>
+        </ul>
+        <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+    </footer>
 
-</html>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js
